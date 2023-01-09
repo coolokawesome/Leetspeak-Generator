@@ -35,34 +35,37 @@
                     col-10 offset-1
                     col-sm-10 offset-sm-1
                     col-md-10 offset-md-1
-                    col-lg-6 offset-lg-3
+                    col-lg-8 offset-lg-2
                     
                     " style="margin-top: 24px;
                     margin-bottom: 24px;">
-            <div>
+            <div class="header">
                 <h1>Leetspeak Generator</h1>
-                <!--<small class="text-muted">By Syrus Samson
-                </small> -->
-                <p class="text-muted">This tool automatically converts your text based on a leetspeak character map. To use this generator,
+                <small class=" text-muted">By Syrus Samson
+                </small> 
+                
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="h5 m-1">input:
+                    </p>
+                    <textarea id='input' class="form-control form-control" rows="8"placeholder='enter your text here...'></textarea>
+                </div>
+
+                <div class="col">
+                    <p class="h5 m-1">output:
+                    </p>
+                    <textarea readonly id='output' class="form-control" rows="8" placeholder="3N73R Y0UR 73X7 H3R3... "></textarea>
+
+                    <button id='clipboard'style=' background-color: white;' class="btn m-1" onclick='clipboard()'>
+                        <i class="fa-regular fa-clipboard"></i>
+                    </button>
+                </div>
+            </div>
+            <p class="text-muted">This tool automatically converts your text based on a leetspeak character map. To
+                    use this generator,
                     simply write or paste your copied text to convert. The generated text will then be displayed in the
-                    bottom box.</p>
-            </div>
-            <div>
-                <p class="h5 m-1">input:</p>
-                <textarea id='input' class="form-control form-control" rows="8"
-                    placeholder='enter your text here...'></textarea>
-            </div>
-
-            <div>
-                <p class="h5 m-1">output:</p>
-                <textarea readonly id='output' class="form-control" rows="8"
-                    placeholder=""></textarea>
-                <button style=' background-color: white;' class="btn m-1">
-                    <i class="fa-regular fa-clipboard"></i>
-                </button>
-
-
-            </div>
+                    second box.</p>
         </div>
         <div class="page
                     border
@@ -70,12 +73,14 @@
                     col-10 offset-1
                     col-sm-10 offset-sm-1
                     col-md-10 offset-md-1
-                    col-lg-6 offset-lg-3
+                    col-lg-8 offset-lg-2
                     rounded-bottom" style="margin-bottom: 0px;">
             <div>
-                <h1>What is Leetspeak?</h1>
-                <p>Leetspeak, also known as "1337" or "l33t," is a form of internet slang that originated in the 1980s on online bulletin board systems. It involves replacing letters with numbers or special characters to create words that resemble their English counterpart.
-                     Leetspeak is also sometimes referred to as
+                <h2>What is Leetspeak?</h2>
+                <p>Leetspeak, also known as "1337" or "l33t," is a form of internet slang that originated in the 1980s
+                    on online bulletin board systems. It involves replacing letters with numbers or special characters
+                    to create words that resemble their English counterpart.
+                    Leetspeak is also sometimes referred to as
                     "1337
                     5P34K," which is leetspeak for "leet speak." The use of leetspeak has declined in recent years, but
                     it
@@ -86,15 +91,19 @@
                     they are replacing. For example, the letter "e" replaced with the number "3," the letter
                     "a"
                     replaced with the symbol "4," and the letter "s" replaced with the letter "5."
-                    Leetspeak was originally used as a way to prevent non-technical people from understanding technical conversations, but it has since evolved and is now used more for fun or to convey a sense of belonging to a particular online community.
+                    Leetspeak was originally used as a way to prevent non-technical people from understanding technical
+                    conversations, but it has since evolved and is now used more for fun or to convey a sense of
+                    belonging to a particular online community.
                     <br> <br>
                     Leetspeak is not a formal language and there are no strict rules for how it should be used.
                     Different
                     users may have their own conventions for how they use leetspeak, and the use of leetspeak may vary
-                    depending on the context in which it is being used. </p>
+                    depending on the context in which it is being used.
+                </p>
                 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
                     data-show-count="false">Tweet</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <p>Visit the <a target='_blank' class="link-info" href="https://en.wikipedia.org/wiki/Leet">Wikipedia</a> for more information on leet speak. KN0W13D63 !5 P0W3R!</p>
             </div>
             <p class=" text-center">
             </p>

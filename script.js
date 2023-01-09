@@ -29,7 +29,7 @@ textInput.addEventListener('keyup', e => {
                             };
 
     //assign the new map to the new string
-    newString = initialString.replace(/[aetiogs]/g, m => chars[m]);
+    newString = initialString.replace(/[aetiogsl]/g, m => chars[m]);
 
     //get the output box
     output = document.getElementById('output')
@@ -37,4 +37,19 @@ textInput.addEventListener('keyup', e => {
     //assign the output value to the string
     output.value = newString.toUpperCase()
 })
+
+function clipboard() {
+    // Get the text field
+    var copyText = document.getElementById("output");
+    console.log(copyText)
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    
+  }
 
