@@ -5,7 +5,7 @@
 textInput = document.getElementById('input')
 
 //add an event listener to the keystrokes
-textInput.addEventListener('keyup', e => {
+textInput.addEventListener('keyup' || 'blur', e => {
 
     //assign a new instance of the input box as a whole
     input = document.getElementById('input')

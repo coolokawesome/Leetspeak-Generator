@@ -65,12 +65,12 @@ body {
 }
 
 .page {
-    background: rgba(241, 241, 241, 0.781);
+    background: rgba(245, 245, 245, 0.897);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.466);
     backdrop-filter: blur(15.1px);
     -webkit-backdrop-filter: blur(15.1px);
-    border: 4px solid rgba(255, 255, 255, 1);
+    border: 8px solid rgba(255, 255, 255, 1);
     padding: 3vw;
 }
 
