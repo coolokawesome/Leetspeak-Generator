@@ -41,33 +41,32 @@
                     " style="margin-top: 24px;
                     margin-bottom: 24px;">
             <div class="header">
-                <h1>Leetspeak Generator</h1>
-                <small class=" text-muted">By Sy Constantin
-                </small> 
-                
+                <h1 class="display-5">Leetspeak Generator</h1>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-12 col-md-6">
                     <p class="h5 m-1">input:
                     </p>
-                    <textarea id='input' class="form-control form-control-lg" rows="8"placeholder='enter your text here...'></textarea>
+                    <textarea id='input' class="form-control form-control-lg" rows="7"
+                        placeholder='enter your text here...'></textarea>
                     <div class="text_items d-flex justify-content-center">
                         <div class=" p-1 m-1">
                             <label>simple</label>
-                        <input type="radio" id="simple" name="type" checked>
+                            <input type="radio" id="simple" name="type" checked>
                         </div>
                         <div class="p-1 m-1">
                             <label>extreme</label>
-                        <input type="radio" id="complex" name="type">
+                            <input type="radio" id="complex" name="type">
                         </div>
-                        
+
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-12 col-md-6">
                     <p class="h5 m-1">output:
                     </p>
-                    <textarea readonly id='output' class="form-control form-control-lg" rows="8" placeholder=""></textarea>
+                    <textarea readonly id='output' class="form-control form-control-lg" rows="7"
+                        placeholder=""></textarea>
 
                     <button style='background-color: white;' class="text_items btn m-1" onclick='clipboard()'>
                         <i class="fa-regular fa-clipboard"></i>
@@ -75,9 +74,9 @@
                 </div>
             </div>
             <p class="text-muted">This tool automatically converts your text based on a leetspeak character map. To
-                    use this generator,
-                    simply write or paste your copied text to convert. The generated text will then be displayed in the
-                    second box.</p>
+                use this generator,
+                simply write or paste your copied text to convert. The generated text will then be displayed in the
+                second box.</p>
         </div>
         <div class="page
                     border
@@ -115,24 +114,36 @@
                 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
                     data-show-count="false">Tweet</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <p>Visit the <a target='_blank' class="link-info" href="https://en.wikipedia.org/wiki/Leet">Wikipedia</a> for more information on leet speak. KN0W13D63 !5 P0W3R!</p>
+                <p>Visit the <a target='_blank' class="link-info"
+                        href="https://en.wikipedia.org/wiki/Leet">Wikipedia</a> for more information on leet speak.
+                    KN0W13D63 !5 P0W3R!</p>
             </div>
-            <p class=" text-center">
+            <p class="text-center">
             </p>
         </div>
-        <div class=' footer d-flex justify-content-center' style="margin-bottom: 100px">
-            <a href="https://github.com/coolokawesome">
-                <p>
-                    <i style='color: rgb(255, 255, 255);' class="fa-brands fa-github fa-xl m-1">
-                    </i>
-                </p>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100080780237393">
-                <p>
-                    <i style='color: rgb(255, 255, 255);' class="fa-brands fa-facebook fa-xl m-1">
-                    </i>
-                </p>
-            </a>
+        <div class='justify-content-center text-center' style="margin-bottom: 100px">
+            <div class="container">
+                <div class="row">
+                    <small class="foot_text text-muted">Sy Constantin, 2022
+                    </small>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a class='col' href="https://github.com/coolokawesome">
+                    <p>
+                        <i style='color: rgb(255, 255, 255);' class="fa-brands fa-github fa-xl m-1">
+                        </i>
+                    </p>
+                </a>
+                <a class='col' href="https://www.facebook.com/profile.php?id=100080780237393">
+                    <p>
+                        <i style='color: rgb(255, 255, 255);' class="fa-brands fa-facebook fa-xl m-1">
+                        </i>
+                    </p>
+                </a>
+            </div>
+
         </div>
     </div>
 
