@@ -15,8 +15,7 @@ textInput.addEventListener('keyup' || 'blur', e => {
     console.log('Original Input Value:', input.value);
 
     //initialize string
-    initialString = input.value
-
+    initialString = input.value.toLowerCase();
     //maping new characters
     const charsSimple = { 
                     'a': '4',
@@ -86,7 +85,5 @@ function clipboard() {
      // Copy the text inside the text field
     navigator.clipboard.writeText(copyText.value);
   
-    // Alert the copied text
-    
   }
 
